@@ -2,4 +2,4 @@ from sample_website.website import hello_world
 
 
 def test_sample_website():
-    assert hello_world() == '<h1>Hello, wonderful people!</h1>'
+    assert hello_world() == '<h1>Hello, foundations 2021!</h1>'
