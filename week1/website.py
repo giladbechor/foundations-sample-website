@@ -3,19 +3,19 @@ from flask import render_template
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/index.html')
 def index():
     return render_template('index.html')
 
 
-@app.route('/first-page')
+@app.route('/students.html')
 def first_page():
-    return render_template('first-page.html', page_title="First Template")
+    return render_template('students.html', page_title="First Template")
 
 
-@app.route('/second-page')
+@app.route('/about.html')
 def second_page():
-    return render_template('second-page.html', page_title="Second Template")
+    return render_template('about.html', page_title="Second Template")
 
 # add additonal pages here using a similar format as above
 
