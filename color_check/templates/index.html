@@ -10,10 +10,11 @@
     to the server (backend). It will send that infromation to a particular URI, at "/color". 
     Your server will then run the code which is defined in website.py at that route. -->
 
-    <form action="/color" method="post">
+    <form action="/show_color" method="POST">
         <!-- add the contents of your form here -->
-        <label for="name"> Color: </label>
+        <label for="color"> Add Color Name: </label>
         <input type="text" name="color" id="color" required>
+        <p><input type = "submit" value = "submit" /></p>
     </form>
 
     </p>
