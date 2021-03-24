@@ -39,7 +39,7 @@ def show_color():
         inputcolor = inputcolor.upper().strip()
         return render_template('color.html', page_title="Show Color",
                                color_hex_code=color_hex_code,
-                               color_name=inputcolor)
+                               color_name=inqputcolor)
         
     except TypeError:
         return render_template('wrongcolor.html', page_title="Color Not Found",
